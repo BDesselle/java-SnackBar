@@ -34,7 +34,7 @@ public class Main {
     System.out.println("* Jane buys 3 of Snack #4 *");
     System.out.println("Jane's Cash on Hand: " + "$" + c1.getCash());
     System.out.println("Jane has " + s4.getQuantity() + " of Snack #4");
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
 
     // Customer 1 buys 1 of snack 3. Print Customer 1 Cash on hand. Print quantity
     // of snack 3.
@@ -42,7 +42,7 @@ public class Main {
     System.out.println("* Jane buys 1 of Snack #1 *");
     System.out.println("Jane's Cash on Hand: " + "$" + c1.getCash());
     System.out.println("Jane has " + s3.getQuantity() + " of Snack #1");
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
 
     // Customer 2 buys 2 of snack 4. Print Customer 2 Cash on Hand. Print quantity
     // of snack 4.
@@ -50,13 +50,13 @@ public class Main {
     System.out.println("* Bob buys 2 of Snack #4 *");
     System.out.println("Bob's Cash on Hand: " + "$" + c2.getCash());
     System.out.println("Bob has " + s4.getQuantity() + " of Snack #4");
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
 
     // Customer 1 finds $10. Print Customer 1 Cash on Hand.
     c1.addCash(10.00);
     System.out.println("* Jane finds $10 *");
     System.out.println("Jane's Cash on Hand: " + "$" + c1.getCash());
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
 
     // Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity
     // of snack 2.
@@ -64,13 +64,13 @@ public class Main {
     System.out.println("* Jane buys 1 of Snack #2 *");
     System.out.println("Customer 1's Cash on Hand: " + "$" + c1.getCash());
     System.out.println("Jane has " + s2.getQuantity() + " of Snack #2");
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
 
     // Snack 3 gets 12 more. Print quantity of snack 3.
     s3.addQuantity(12);
     System.out.println("* Snack #3 is Restocked *");
     System.out.println("Qty of Snack #3: " + s3.getQuantity());
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
 
     // Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity
     // of snack 3.
@@ -78,7 +78,7 @@ public class Main {
     System.out.println("* Bob buys 3 of Snack #3 *");
     System.out.println("Bob's Cash on Hand: " + "$" + c2.getCash());
     System.out.println("Bob has " + s3.getQuantity() + " of Snack #3");
-    System.out.println("---------------------");
+    System.out.println("--------------------------");
   }
 
   public static void main(String[] args) {
