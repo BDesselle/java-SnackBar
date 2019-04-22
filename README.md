@@ -90,3 +90,4 @@ Customer can add cash, buy given total cash used in purchase, get and set name, 
         * Quantity on hand
         * Total cost of all of the quantities of this snack on hand
 	
+* Initializing Pull-Request
